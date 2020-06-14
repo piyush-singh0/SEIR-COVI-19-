@@ -6,4 +6,4 @@ install and run the program.
 
 change the directory to the folder where you downladed the rest of the files.
 
-type "run" to simulte the model
+type "run" in the command window to simulte the model
