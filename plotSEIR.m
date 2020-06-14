@@ -1,0 +1,20 @@
+%this script is to plot all the graps of the SEIR model
+subplot(2, 3, 1);
+	plot(1:iter,s);
+	title("Suceptible");
+subplot(2, 3, 2);
+	plot(1:iter,e);
+	title("Exposed");
+subplot(2, 3, 3);
+	plot(1:iter,i);
+	title("Infected");
+subplot(2, 3, 4);
+	plot(1:iter,r);
+	title("Recovered");
+subplot(2, 3, 5);
+	plot(1:iter,d);
+	title("Dead");
+subplot(2, 3, 6);
+	img = imread ('SEIR-schematic.jpg');
+	imshow(img);
+ print("-dpng", "SEIR covid 19 model graph plot.png");
