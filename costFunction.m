@@ -1,6 +1,7 @@
 %lost function for the model
-function[J , grad] = costFunction(theta,X, y,regP)
+function[j , grad] = costFunction(theta,X, y,regP)
 	m = length(y);
+	j = 0;
 	h = X*theta - y;
 	tempTheta = theta;
 	tempTheta(1) = 0;
