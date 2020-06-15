@@ -1,6 +1,6 @@
 %stimulation script
 clear ; close all; %clc
-fprintf('Welcome to the SEIR model of the covid-19 with piyush\n')
+fprintf('Welcome to the SEIR model of the covid-19\n')
 fprintf('Press enter for the schematic of the madel\n');
 fprintf('Press "Ctrl+c" to exit the model anywhere \n');
 pause;
