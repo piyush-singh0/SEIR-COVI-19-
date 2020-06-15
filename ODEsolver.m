@@ -1,5 +1,5 @@
 % ODE_solver
-function [S, E, I, R, D] = ODEsolver(S0, E0, I0, R0, D0, days)
+function [S, E, I, R, D] = ODEsolver(S0, E0, I0, R0, D0, days,iter)
 	%S0 initial no of suseptible in the population.
 	%E0 initial no of exposed in the population.
 	%I0 initial no of infected in the population.
