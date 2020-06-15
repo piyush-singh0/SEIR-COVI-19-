@@ -12,5 +12,5 @@ function[theta] = rateofchangeofS()
 	initial_theta = zeros(size(X,2),1);
 	[cost, grad] = costFunction(theta, X, y,0);
 	options = optimset('GradObj', 'on', 'MaxIter', 400);
-	[theta, cost] = fminunc(@(t)(costFunction(t, X, y)), initial_theta, options);
+	[theta, cost] = minunc(@(t)(costFunction(t, X, y)), initial_theta, options);
 end
